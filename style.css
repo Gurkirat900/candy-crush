@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('background.jpg') no-repeat center fixed ;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+#board{
+    background-color: lightblue;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6px auto;
+    border: solid 1px slategray;
+}
+
+#board img{
+    height: 50px;
+    width: 50px;
+}
